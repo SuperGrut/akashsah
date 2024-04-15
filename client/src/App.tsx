@@ -76,9 +76,9 @@ export function App() {
         <Box>
           <Box className="flex justify-center items-center">
             <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-              <Tab className="fonst-sans" label="software" {...a11yProps(0)} />
-              <Tab className="fonst-sans" label="open-source" {...a11yProps(1)} />
-              <Tab className="fonst-sans" label="journey" {...a11yProps(2)} />
+              <Tab label="softwares" {...a11yProps(0)} />
+              <Tab label="open-source" {...a11yProps(1)} />
+              <Tab label="my history" {...a11yProps(2)} />
             </Tabs>
           </Box>
         </Box>
