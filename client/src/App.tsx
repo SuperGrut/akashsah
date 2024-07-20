@@ -3,6 +3,7 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import Software from "./components/Software";
+import History from "./components/History";
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -83,13 +84,13 @@ export function App() {
           </Box>
         </Box>
         <CustomTabPanel value={value} index={0}>
-          <Software/>
+          <Software />
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>
-          open-source
+          This Page in under construction
         </CustomTabPanel>
         <CustomTabPanel value={value} index={2}>
-          journey
+          <History />
         </CustomTabPanel>
       </Box>
     </>

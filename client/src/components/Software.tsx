@@ -44,7 +44,7 @@ const Software = () => {
                             meet
                         </Typography>
                         <Typography className=' h-10' variant="body2" color="text.secondary">
-                            Meet stranger of your choice
+                            A video calling app
                         </Typography>
                         <Box className="flex justify-center bg-white-100">
                             <Alert severity="warning" className='font-mono'>Under Development</Alert>
