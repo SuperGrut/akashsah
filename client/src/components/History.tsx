@@ -17,13 +17,13 @@ import Typography from '@mui/material/Typography';
 export default function History() {
     return (
         <Timeline position="alternate-reverse">
-            <TimelineItem>
+            <TimelineItem className='pl-10'>
                 <TimelineSeparator>
                     <TimelineDot />
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                    <Card sx={{ minWidth: 275 }}>
+                    <Card sx={{ minWidth: 175 }}>
                         <CardContent>
                             <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                                 June 2019
@@ -41,13 +41,13 @@ export default function History() {
                     </Card>
                 </TimelineContent>
             </TimelineItem>
-            <TimelineItem>
+            <TimelineItem className='pr-10'>
                 <TimelineSeparator>
                     <TimelineDot />
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                    <Card sx={{ minWidth: 275 }}>
+                    <Card sx={{ minWidth: 190 }}>
                         <CardContent>
                             <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                                 March 2020
@@ -65,13 +65,13 @@ export default function History() {
                     </Card>
                 </TimelineContent>
             </TimelineItem>
-            <TimelineItem>
+            <TimelineItem className='pl-10'>
                 <TimelineSeparator>
                     <TimelineDot />
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                    <Card sx={{ minWidth: 275 }}>
+                    <Card sx={{ minWidth: 190 }}>
                         <CardContent>
                             <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                                 August 2021
@@ -89,13 +89,13 @@ export default function History() {
                     </Card>
                 </TimelineContent>
             </TimelineItem>
-            <TimelineItem>
+            <TimelineItem className='pr-10'>
                 <TimelineSeparator>
                     <TimelineDot />
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                    <Card sx={{ minWidth: 275 }}>
+                    <Card sx={{ minWidth: 190 }}>
                         <CardContent>
                             <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                                 March 2022
@@ -113,13 +113,13 @@ export default function History() {
                     </Card>
                 </TimelineContent>
             </TimelineItem>
-            <TimelineItem>
+            <TimelineItem className='pl-10'>
                 <TimelineSeparator>
                     <TimelineDot />
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                    <Card sx={{ minWidth: 275 }}>
+                    <Card sx={{ minWidth: 190 }}>
                         <CardContent>
                             <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                                 September/October 2022
@@ -137,13 +137,13 @@ export default function History() {
                     </Card>
                 </TimelineContent>
             </TimelineItem>
-            <TimelineItem>
+            <TimelineItem className='pr-10'>
                 <TimelineSeparator>
                     <TimelineDot />
                     <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent>
-                    <Card sx={{ minWidth: 275 }}>
+                    <Card sx={{ minWidth: 190 }}>
                         <CardContent>
                             <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                                 January 2023
