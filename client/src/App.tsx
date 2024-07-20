@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import { Avatar, Box, Link, Stack, Tab, Tabs, Typography } from "@mui/material"
 import React from "react";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
@@ -43,7 +44,7 @@ export function App() {
 
   const [value, setValue] = React.useState(0);
 
-  const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+  const handleChange = (newValue: number) => {
     setValue(newValue);
   };
 
@@ -76,6 +77,7 @@ export function App() {
       <Box className="text-center">
         <Box>
           <Box className="flex justify-center items-center">
+            {/*@ts-expect-error*/}
             <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
               <Tab label="softwares" {...a11yProps(0)} />
               <Tab label="open-source" {...a11yProps(1)} />
