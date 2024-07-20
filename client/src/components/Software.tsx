@@ -8,7 +8,7 @@ const Software = () => {
                 <Card sx={{ maxWidth: 345 }} className=' font-sans'>
                     <CardMedia
                         sx={{ height: 240 }}
-                        image="./public/docgpt.png"
+                        image="./docgpt.png"
                         title="green iguana"
                     />
                     <CardContent>
@@ -36,7 +36,7 @@ const Software = () => {
                 <Card sx={{ maxWidth: 345 }} className=' font-sans'>
                     <CardMedia
                         sx={{ height: 240 }}
-                        image="./public/meet.png"
+                        image="./meet.png"
                         title="green iguana"
                     />
                     <CardContent>
@@ -64,7 +64,7 @@ const Software = () => {
                 <Card sx={{ maxWidth: 345 }} className=' font-sans'>
                     <CardMedia
                         sx={{ height: 240 }}
-                        image="./public/gcompiler.png"
+                        image="./gcompiler.png"
                         title="green iguana"
                     />
                     <CardContent>
@@ -92,7 +92,7 @@ const Software = () => {
                 <Card sx={{ maxWidth: 345 }} className=' font-sans'>
                     <CardMedia
                         sx={{ height: 240 }}
-                        image="./public/drop.png"
+                        image="./drop.png"
                         title="green iguana"
                     />
                     <CardContent>
