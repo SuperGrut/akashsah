@@ -4,12 +4,14 @@ import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import Software from "./components/Software";
 import History from "./components/History";
+import ReactGA from "react-ga4";
 
 interface TabPanelProps {
   children?: React.ReactNode;
   index: number;
   value: number;
 }
+ReactGA.initialize("G-99EG8NR3EB");
 
 function CustomTabPanel(props: TabPanelProps) {
   const { children, value, index, ...other } = props;
