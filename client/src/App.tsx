@@ -57,20 +57,20 @@ export function App() {
             <img src="/Grut.jpg" alt="Profile Picture" />
           </Avatar>
           <Typography className="font-sans text-2xl antialiased font-bold text-gray-100 text-center mt-6">
-            <p>Grut</p>
+            <p>Akash Sah</p>
           </Typography>
         </Box>
         <Stack direction='row' spacing={2} className='mt-4 mb-3'>
-          <Link href='https://www.github.com/akash19coder' className="size-auto">
+          <Link href='https://www.github.com/SuperGrut' target="_blank" rel="noopener" className="size-auto">
             <FaGithub size={24} className=" " />
           </Link>
-          <Link href='https://www.linkedin.com/in/akash-sah-a648b521b' className="size-auto">
+          <Link href='https://www.linkedin.com/in/akash-sah-a648b521b' target="_blank" rel="noopener" className="size-auto">
             <FaLinkedin size={24} className=" " />
           </Link>
-          <Link href='https://www.twitter.com/akashhonline/' className="size-auto">
+          <Link href='https://www.x.com/SuperGrut/' target="_blank" rel="noopener" className="size-auto">
             <FaXTwitter size={24} className=" " />
           </Link>
-          <Link href='https://www.instagram.com/akashhsahh/' className="size-auto">
+          <Link href='https://www.instagram.com/akashhsahh/' target="_blank" rel="noopener" className="size-auto">
             <FaInstagram size={24} className=" " />
           </Link>
         </Stack>

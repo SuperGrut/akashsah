@@ -1,14 +1,15 @@
 import { Alert, Box, Button, Card, CardActions, CardContent, CardMedia, Typography } from '@mui/material'
 import { GiPlayButton } from "react-icons/gi";
 import { FaGithub } from "react-icons/fa";
+
 const Software = () => {
     return (
         <>
-            <Box className="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+            <Box className="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 bg-[#f2f2f2]">
                 <Card sx={{ maxWidth: 345 }} className=' font-sans'>
                     <CardMedia
                         sx={{ height: 240 }}
-                        image="./docgpt.png"
+                        image="./docgpt-one.png"
                         title="green iguana"
                     />
                     <CardContent>
@@ -16,18 +17,18 @@ const Software = () => {
                             DocGPT
                         </Typography>
                         <Typography className='h-10' variant="body2" color="text.secondary">
-                            A GPT-3.5-turbo powered document summarizer
+                            a QnA with PDF tool powered by Google gemini-2.5-pro
                         </Typography>
-                        <Box className="flex justify-center">
+                        {/* <Box className="flex justify-center">
                             <Alert severity="info" className='font-mono'>Under Deployment</Alert>
-                        </Box>
+                        </Box> */}
                     </CardContent>
                     <CardActions className='flex justify-center'>
-                        <Button disabled size="small" className='font-sans'>
+                        <Button href='https://doc-gpt-one.vercel.app' target='_blank' size="small" className='font-sans'>
                             <GiPlayButton className='size-4' />
-                            Play
+                            Visit App
                         </Button>
-                        <Button size="small" className="font-sans">
+                        <Button href='https://www.github.com/SuperGrut/DocGPT' target='_blank' size="small" className="font-sans">
                             <FaGithub className='size-4 mr-1' />
                             Source Code
                         </Button>
@@ -36,26 +37,26 @@ const Software = () => {
                 <Card sx={{ maxWidth: 345 }} className=' font-sans'>
                     <CardMedia
                         sx={{ height: 240 }}
-                        image="./meet.png"
+                        image="./meet-app.png"
                         title="green iguana"
                     />
                     <CardContent>
                         <Typography className='font-sans' gutterBottom variant="h5" component="div">
-                            meet
+                            Meet
                         </Typography>
                         <Typography className=' h-10' variant="body2" color="text.secondary">
-                            A video calling app
+                            meet random strangers across the globe
                         </Typography>
-                        <Box className="flex justify-center bg-white-100">
+                        {/* <Box className="flex justify-center bg-white-100">
                             <Alert severity="warning" className='font-mono'>Under Development</Alert>
-                        </Box>
+                        </Box> */}
                     </CardContent>
                     <CardActions className='flex justify-center'>
-                        <Button disabled size="small" className='font-sans'>
+                        <Button href='https://chatwstrangers.vercel.app' target='_blank' size="small" className='font-sans'>
                             <GiPlayButton className='size-4' />
-                            Play
+                            Visit App
                         </Button>
-                        <Button size="small" className="font-sans">
+                        <Button href='https://github.com/SuperGrut/chatbubble-buddies' target='_blank' size="small" className="font-sans">
                             <FaGithub className='size-4 mr-1' />
                             Source Code
                         </Button>
@@ -64,32 +65,33 @@ const Software = () => {
                 <Card sx={{ maxWidth: 345 }} className=' font-sans'>
                     <CardMedia
                         sx={{ height: 240 }}
-                        image="./gcompiler.png"
+                        image="./csverse.png"
                         title="green iguana"
+                        className='p-6'
                     />
                     <CardContent>
                         <Typography className='font-sans' gutterBottom variant="h5" component="div">
-                            G Compiler
+                            CSVerse
                         </Typography>
                         <Typography className=' h-10' variant="body2" color="text.secondary">
-                            A toy programmming called G-Programming Language
+                            discover and share Computer Science Resources and get ranked on leaderboard
                         </Typography>
-                        <Box className="flex justify-center">
+                        {/* <Box className="flex justify-center">
                             <Alert severity="error" className='font-mono'>Planned</Alert>
-                        </Box>
+                        </Box> */}
                     </CardContent>
                     <CardActions className='flex justify-center'>
-                        <Button disabled size="small" className='font-sans'>
+                        <Button href='https://csverse.vercel.app' target='_blank' size="small" className='font-sans'>
                             <GiPlayButton className='size-4' />
-                            Play
+                            Visit App
                         </Button>
-                        <Button disabled size="small" className="font-sans">
+                        <Button href='https://www.github.com/SuperGrut/csverse' target='_blank' size="small" className="font-sans">
                             <FaGithub className='size-4 mr-1' />
                             Source Code
                         </Button>
                     </CardActions>
                 </Card>
-                <Card sx={{ maxWidth: 345 }} className=' font-sans'>
+                {/* <Card sx={{ maxWidth: 345 }} className=' font-sans'>
                     <CardMedia
                         sx={{ height: 240 }}
                         image="./drop.png"
@@ -116,7 +118,7 @@ const Software = () => {
                             Source Code
                         </Button>
                     </CardActions>
-                </Card>
+                </Card> */}
             </Box>
         </>
 
