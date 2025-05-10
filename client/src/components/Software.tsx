@@ -1,4 +1,4 @@
-import { Alert, Box, Button, Card, CardActions, CardContent, CardMedia, Typography } from '@mui/material'
+import { Box, Button, Card, CardActions, CardContent, CardMedia, Typography } from '@mui/material'
 import { GiPlayButton } from "react-icons/gi";
 import { FaGithub } from "react-icons/fa";
 
