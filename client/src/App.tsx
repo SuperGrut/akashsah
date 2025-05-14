@@ -3,9 +3,10 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import Software from "./components/Software";
-import History from "./components/History";
 import ReactGA from "react-ga4";
-
+import OpenSource from "./components/OpenSource";
+import SkillsSection from "./components/History";
+   
 interface TabPanelProps {
   children?: React.ReactNode;
   index: number;
@@ -79,9 +80,9 @@ export function App() {
         <Box>
           <Box className="flex justify-center items-center">
             <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-              <Tab label="softwares" {...a11yProps(0)} />
+              <Tab label="My Projects" {...a11yProps(0)} />
               <Tab label="open-source" {...a11yProps(1)} />
-              <Tab label="my history" {...a11yProps(2)} />
+              <Tab label="My Skills" {...a11yProps(2)} />
             </Tabs>
           </Box>
         </Box>
@@ -89,10 +90,10 @@ export function App() {
           <Software />
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>
-          This Page in under construction
+          <OpenSource/>
         </CustomTabPanel>
         <CustomTabPanel value={value} index={2}>
-          <History />
+          <SkillsSection />
         </CustomTabPanel>
       </Box>
     </>

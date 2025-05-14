@@ -1,4 +1,4 @@
-import { Box, Button, Card, CardActions, CardContent, CardMedia, Typography } from '@mui/material'
+import { Box, Button, Chip,Card, CardActions, CardContent, CardMedia, Typography } from '@mui/material'
 import { GiPlayButton } from "react-icons/gi";
 import { FaGithub } from "react-icons/fa";
 
@@ -8,7 +8,7 @@ const Software = () => {
             <Box className="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 bg-[#f2f2f2]">
                 <Card sx={{ maxWidth: 345 }} className=' font-sans'>
                     <CardMedia
-                        sx={{ height: 240 }}
+                        sx={{ height: 240, padding:"1em 1em 0em 1em", objectFit:'contain' }}
                         image="./docgpt-one.png"
                         title="green iguana"
                     />
@@ -17,11 +17,17 @@ const Software = () => {
                             DocGPT
                         </Typography>
                         <Typography className='h-10' variant="body2" color="text.secondary">
-                            a QnA with PDF tool powered by Google gemini-2.5-pro
+                            A QnA with PDF tool powered by Google gemini-2.5-pro
                         </Typography>
-                        {/* <Box className="flex justify-center">
-                            <Alert severity="info" className='font-mono'>Under Deployment</Alert>
-                        </Box> */}
+                        <Box className="pt-4 flex justify-centerf flex-wrap">
+                            <Chip label="react" />
+                             <Chip label="tailwind" />
+                              <Chip label="node" />
+                               <Chip label="mongo" />
+                                <Chip label="pinecone" />
+                                 <Chip label="cloudinary" />
+                                  <Chip label="gemini" />
+                        </Box>
                     </CardContent>
                     <CardActions className='flex justify-center'>
                         <Button href='https://doc-gpt-one.vercel.app' target='_blank' size="small" className='font-sans'>
@@ -36,7 +42,7 @@ const Software = () => {
                 </Card>
                 <Card sx={{ maxWidth: 345 }} className=' font-sans'>
                     <CardMedia
-                        sx={{ height: 240 }}
+                       sx={{ height: 240, padding:"1em 1em 0em 1em", objectFit:'contain' }}
                         image="./meet-app.png"
                         title="green iguana"
                     />
@@ -45,11 +51,16 @@ const Software = () => {
                             Meet
                         </Typography>
                         <Typography className=' h-10' variant="body2" color="text.secondary">
-                            meet random strangers across the globe
+                            Meet random strangers across the globe
                         </Typography>
-                        {/* <Box className="flex justify-center bg-white-100">
-                            <Alert severity="warning" className='font-mono'>Under Development</Alert>
-                        </Box> */}
+                        <Box className="pt-4 flex justify-centerf flex-wrap">
+                            <Chip label="react" />
+                             <Chip label="tailwind" />
+                              <Chip label="node" />
+                               <Chip label="socket" />
+                                <Chip label="webrtc" />
+                                 
+                        </Box>
                     </CardContent>
                     <CardActions className='flex justify-center'>
                         <Button href='https://chatwstrangers.vercel.app' target='_blank' size="small" className='font-sans'>
@@ -64,7 +75,7 @@ const Software = () => {
                 </Card>
                 <Card sx={{ maxWidth: 345 }} className=' font-sans'>
                     <CardMedia
-                        sx={{ height: 240 }}
+                        sx={{ height: 240, padding:"1em 1em 0em 1em", objectFit:'contain' }}
                         image="./csverse.png"
                         title="green iguana"
                         className='p-6'
@@ -74,11 +85,16 @@ const Software = () => {
                             CSVerse
                         </Typography>
                         <Typography className=' h-10' variant="body2" color="text.secondary">
-                            discover and share Computer Science Resources and get ranked on leaderboard
+                            Discover and share Computer Science Resources and get ranked on leaderboard
                         </Typography>
-                        {/* <Box className="flex justify-center">
-                            <Alert severity="error" className='font-mono'>Planned</Alert>
-                        </Box> */}
+                        <Box className="pt-4 flex justify-centerf flex-wrap">
+                            <Chip label="react" />
+                             <Chip label="tailwind" />
+                              <Chip label="node" />
+                               <Chip label="mongo" />
+                                <Chip label="youtube data api" />
+                                 
+                        </Box>
                     </CardContent>
                     <CardActions className='flex justify-center'>
                         <Button href='https://csverse.vercel.app' target='_blank' size="small" className='font-sans'>
